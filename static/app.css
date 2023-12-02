@@ -1,0 +1,123 @@
+body {
+    background-color: #121212;
+    color: #ffffff; 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  
+  h2 {
+    color: white;
+  }
+  
+  .l2 {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block; 
+    margin: 10px auto; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 1px solid #424242;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .area,
+  .location {
+      width: 20%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: block; 
+      margin: 10px auto; 
+      text-align: center; 
+      background-color: rgba(0, 0, 0, 0.5); 
+      border: 1px solid #424242;
+      color: #ffffff;
+      border-radius: 10px;
+      transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .area:hover,
+  .location:hover {
+      background-color: #3a3a3a;
+      border-color: #555555;
+      color: #cccccc;
+  }
+  
+  .switch-field {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .switch-field input {
+    display: none;
+  }
+  
+  .switch-field label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #3498db; 
+    color: #ffffff; 
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .switch-field input:checked + label {
+    background-color: #e74c3c; 
+  }
+  
+  .submit {
+    background-color: #27ae60; 
+    color: #ffffff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block; 
+    margin: 10px auto; 
+    text-align: center; 
+}
+
+  
+  .submit:hover {
+    background-color: red; 
+  }
+  
+  .result {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block; 
+    margin: 10px auto; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 1px solid #424242;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
